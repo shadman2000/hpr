@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+
+#main{
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.6),rgba(0,0,0,1)),url("../media/bg1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+    text-align:center;
+    position:relative;
+}
+
+#base{
+    position:relative;
+    top:20vh;
+    font-family: 'Slabo 40px', serif;
+    color:#009688;
+}
+
+#logo{
+    transition:all 2s;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+#pr{
+    height:10vh;
+    width:10vw;
+}
