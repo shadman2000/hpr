@@ -9,20 +9,45 @@
     </head>
     
     <body>
-        <div id="main">
+        <div id="main" class="z-depth-5" data-paroller-factor="0.6" data-paroller-direction="vertical">
             <div id="logos">
                 <div id="base">
-                    <a href="bronxsoftware.org"><img style="filter: drop-shadow(2px 2px 2px grey);" id="logo" src="media/logo.png"></a>
-                    <h3 style="text-shadow: 2px 2px 5px black;"><strong>Bronx Academy For Software Engineering</strong></h3>
+                    <a href="bronxsoftware.org" ><img id="logo" class= "baselogo" src="media/logo.png"></a>
+                    <h3 id="basetext" style="text-shadow: 2px 2px 5px black;" data-animate="fadeInDown" data-duration="2.0s" data-delay="0.1s"><strong>Bronx Academy For Software Engineering</strong></h3>
                     <hr>
-                    <h5 style="font-family: 'Bitter', serif; color:#ffffff; text-shadow: 2px 2px 5px red;">Let's help Puerto Rico</h5>
-                    <img style="filter: drop-shadow(2px 2px 2px white);" id ="pr" src="media/pr.png">
+                    <h5 style="font-family: 'Bitter', serif; color:#ffffff; text-shadow: 2px 2px 5px red;" data-animate="fadeInUp" data-duration="2.0s" data-delay="1.0s" id="lhprt">Let's help Puerto Rico</h5>
+                    <img id ="pr" data-animate="fadeIn" data-duration="2.0s" data-delay="1.5s" src="media/pr.png">
                 </div>
             </div>
         </div>
         
-        <script src="javascript/index.js"></script>
+        <div id="sec1" class="z-depth-5">
+            <div id="whthpnd" class="container">
+                <h6 data-animate="fadeInUp" data-duration="2.0s" data-delay="1.0s" id="whthpndtxt">On September 22nd 2017 a category-4 hurricane named "Hurricane Irma" struck many countries in the American continent including causing a devastating situation in an island called "Puerto Rico"</h6>
+                <hr>
+            </div>
+            <div id="imagecontainer" class="row" data-animate="fadeInUp" data-duration="2.0s" data-delay="0.1s" id="slideInDown">
+                <img class="col s3 materialboxed z-depth-5 border" data-caption="A man rides his bicycle through a damaged road in Toa Alta, west of San Juan. Photograph: Ricardo Arduengo/AFP/Getty Images" src="media/pr1.jpg">
+                <img class="col s3 materialboxed z-depth-5 border" data-caption="A house destroyed by hurricane winds is seen in Toa Baja. Photograph: Ricardo Arduengo/AFP/Getty Images" src="media/pr2.jpg">
+                <img class="col s3 materialboxed z-depth-5 border" data-caption="Partially flooded houses in Cataño. Photograph: Ricardo Arduengo/AFP/Getty Images" src="media/pr3.jpg">
+                <img class="col s3 materialboxed z-depth-5 border" data-caption="A man walks on a highway divider in San Juan while carrying his bicycle. Photograph: Ricardo Arduengo/AFP/Getty Images" src="media/pr4.jpg">
+            </div>
+            <div id="want" class="container">
+                <h6>As the worst storm to hit the island in almost 90 years—it left it completely without power. It could take months to restore access to electricity, while a public health crisis is in danger of emerging as huge swathes of the population don’t have access to safe drinking water. As that was not enough as the countries economy is in a continuous downfall since '04.</h6>
+            </div>
+            <br>
+        </div>
+        
+        <div id="sec2" data-paroller-factor="0.4" data-paroller-direction="vertical">
+            <div id="whtrwedoing" class='container'>
+                <h5><span class="base">Bronx Academy For Software Engineering</span> is extending their hand by doing a <span style="color:green;">fund raising</span> on helping the ones in need, Students are participating on making fliers, posters and many motivational pieces. Many of our friends and families are from <span class="pr">Puerto Rico</span>, and it's time for us to stand by them.</h5>
+                <hr>
+            </div>
+        </div>
+        
         <script src="javascript/jquery-3.2.1.js"></script>
+        <script src="materialize/js/materialize.js"></script>
+        <script src="javascript/index.js"></script>
         <script src="javascript/jquery.paroller.js"></script>
         <script src="javascript/scrolla.jquery.js"></script>
         <script src="javascript/typeit.js"></script>
